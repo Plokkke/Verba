@@ -9,7 +9,6 @@ with contextlib.suppress(Exception):
 from goldenverba.components.chunking.chunk import Chunk
 from goldenverba.components.chunking.interface import Chunker
 from goldenverba.components.reader.document import Document
-from goldenverba.components.reader.interface import InputForm
 
 
 class SentenceChunker(Chunker):
