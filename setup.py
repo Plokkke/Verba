@@ -39,13 +39,7 @@ setup(
         "pypdf2",
     ],
     extras_require={
-        "dev": [
-            "pytest",
-            "wheel",
-            "twine",
-            "black>=23.7.0",
-            "setuptools"
-        ],
+        "dev": ["pytest", "wheel", "twine", "black>=23.7.0", "setuptools"],
         "huggingface": [
             "sentence-transformers",
             "transformers",
